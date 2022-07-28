@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    font-family: Times, Times, serif;
+    color: #fff;
+
+    /* Gradiente no Header */
+    background: linear-gradient(45deg, #000000, #470081);
+    background-size: 400% 400%;
+    -webkit-animation: AnimationName 11s ease infinite;
+    -moz-animation: AnimationName 11s ease infinite;
+    -o-animation: AnimationName 11s ease infinite;
+    animation: AnimationName 11s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 58%}
+    50%{background-position:100% 43%}
+    100%{background-position:0% 58%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 58%}
+    50%{background-position:100% 43%}
+    100%{background-position:0% 58%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 58%}
+    50%{background-position:100% 43%}
+    100%{background-position:0% 58%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 58%}
+    50%{background-position:100% 43%}
+    100%{background-position:0% 58%}
+}
+    /* Gradiente no Header */
+
+
+main {
+    padding: 100px;
+    margin-left: 36.5%;
+    font-family: helvetica;
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#menu {
+    margin-left: 24.0%;
+    font-size: 35px;
+    font-family: Times, Times, serif;
+}
+
+#classe {
+    margin-left: 28.5%;
+}
+
+ul {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: #000;
+}
+
+#img-menu {
+    width: 350px;
+    margin-left: 40px;
+}
+
+#img-manu, ul {
+    display: inline-block;
+}
+
+.text {
+    font-weight: bold;
+}
+        
+.breakLine{
+    margin-bottom:6px;
+}

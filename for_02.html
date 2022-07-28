@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trab</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Trab ==Maria==</h1>
+    </header>
+    <main>
+        <form action="php/for_02.php" method="POST">
+            <legend>Digite um Número:</legend>
+            <input type="number" name="numero">
+            <legend>Escolha Uma Opção:</legend>
+
+            <div>
+                <input type="radio"  name="escolha" value="PAR"checked>
+                <label for="par">Par</label>
+            </div>
+
+            <div>
+                <input type="radio" name="escolha" value="IMPAR">
+                <label for="impar">Impar</label>
+            </div>
+
+            <div>
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
